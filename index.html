@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <style>
+        .container h1 {
+            padding: 30px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-1000" src="https://cdn.pixabay.com/photo/2023/12/22/12/08/beach-8463642_1280.jpg">
+                    <div class="carousel-caption">
+                        <h5>Rio de Janeiro</h5>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-1000" src="https://cdn.pixabay.com/photo/2023/12/20/07/04/mountains-8459056_1280.jpg">
+                    <div class="carousel-caption">
+                        <h5>Chile</h5>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-1000" src="https://cdn.pixabay.com/photo/2023/10/19/21/08/sunset-8327637_1280.jpg">
+                    <div class="carousel-caption">
+                        <h5>França</h5>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0" ></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1" ></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2" ></button>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <div class="container">
+        <h1>PROMOÇÕES IMPERDÍVEIS </h1>
+        <div class="row">
+            <div class="col-4">
+                <div class="card text-bg-dark">
+                    <img src="https://pixabay.com/get/g13043e1266389fbbd8e282bb3223b420b50001c8e71e813d2ba1cabcf8c889cdd0bd33cffb0a34c1a1c87b4af885442a94493e241cd53a35d2d6f7a31d73002bc3965d392960db1d090e63090336d683_640.png">
+                    <div class="card-body">
+                        <h4 class="card-title">China</h4>
+                        <h5 class="card-subtitle">10x 248</h5>
+                        <p class="card-text">
+                            Aéreo + Hotel com café da manhã
+                        </p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time>23/01/2024 às 19:23</time>
+                    </footer>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-bg-dark">
+                    <img src="https://pixabay.com/get/g83395ac2f8dfdce72e008b3fd23c697172db525d550b8e374ed30f7b59e8088c07e389909ed670d4025eeec741f26896b7aa494d524f38cd1203cdb07e0b29fdc4993403e2e9818d471a7e2fcc4ee73d_640.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Buenos Aires</h4>
+                        <h5 class="card-subtitle">10x 170</h5>
+                        <p class="card-text">
+                            Aéreo + Hotel + Transfer
+                        </p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time>23/01/2024 às 19:23</time>
+                    </footer>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-bg-dark">
+                    <img src="https://pixabay.com/get/g8d4e88749048c95af1ed4b0148c45ccc6f19e269a0c91bfb984c01fd6de04ff88d60bd547be8d37e3a737c1f2b324939d043e04510044066ed0b5eab7db849e5ea36227ce7e4ae42b1b0aae79ad15ec3_640.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Florianópolis</h4>
+                        <h5 class="card-subtitle">10x 136</h5>
+                        <p class="card-text">
+                            Aéreo + Hotel com café da manhã + transfer
+                        </p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time>23/01/2024 às 19:23</time>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
